@@ -7,8 +7,6 @@ import java.util.List;
 
 @Repository
 public interface TeamRepository extends JpaRepository<Team, Long> {
-
-    List<Team> findByGroup(String group);
-
-
+    
+    List<Team> findByTeamGroup(String teamGroup);
 }

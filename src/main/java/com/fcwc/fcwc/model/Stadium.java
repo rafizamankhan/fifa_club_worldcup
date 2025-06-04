@@ -25,4 +25,5 @@ public class Stadium {
 
     @Column(name = "stadium_state", nullable = false)
     private String stadiumState;
+    
 }

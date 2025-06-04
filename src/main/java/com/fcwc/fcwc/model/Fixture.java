@@ -18,10 +18,10 @@ public class Fixture {
     @Column(name = "match_id")
     private Long matchId;
     
-    @Column(name = "home_team_id", nullable = false)
+    @Column(name = "home_team_id", nullable = true)
     private Long homeTeamId;
 
-    @Column(name = "away_team_id", nullable = false)
+    @Column(name = "away_team_id", nullable = true)
     private Long awayTeamId;
     
     @Column(name = "stadium_id", nullable = false)
